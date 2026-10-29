@@ -33,5 +33,3 @@ npm run dev
 ```
 
 Abra a interface em `http://localhost:5173`. A API usa `http://localhost:8000`, com documentação interativa em `/docs` e verificação de disponibilidade em `/health`.
-
-**Ambiente encontrado em 29/10/2026:** o ambiente virtual copiado em `backend/.venv` aponta para um Python inexistente de outro perfil do Windows. Recrie esse ambiente com um Python local funcional antes de executar o backend. Na inspeção, `node` e `npm` também não estavam disponíveis no PATH do terminal. Os testes e a compilação não puderam ser executados nessa inspeção.
