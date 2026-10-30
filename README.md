@@ -1,6 +1,6 @@
-# Comparação de textos em PDF — v1.0
+# Comparação de textos em PDF — v1.0 - TCC Uninter
 
-Aplicação para comparar dois PDFs com texto extraível. A interface React envia os documentos à API FastAPI, que combina similaridade lexical (40%) e semântica (60%) e retorna percentuais, trechos semelhantes, palavras-chave e indícios de duplicação ou paráfrase.
+Essa é uma aplicação para comparar dois PDFs com texto, não é possível comparar textos. A interface React envia os documentos à API FastAPI, que combina similaridade lexical (40%) e semântica (60%) e retorna percentuais, trechos semelhantes, palavras-chave e indícios de duplicação ou paráfrase.
 
 ## Estrutura
 
@@ -8,8 +8,6 @@ Aplicação para comparar dois PDFs com texto extraível. A interface React envi
 - `backend/requirements.txt`: dependências Python.
 - `frontend/src/`: interface de upload e apresentação dos resultados.
 - `frontend/package.json` e `frontend/package-lock.json`: dependências e comandos do frontend.
-
-O repositório contém os arquivos da aplicação e este README. Dependências instaladas, ambientes virtuais, testes, documentação complementar e arquivos gerados ficam fora do versionamento, conforme o `.gitignore`.
 
 ## Execução local
 
